@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jay Bieshaar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--Vegas-->
+		<script src="http://zeptojs.com/zepto.min.js"></script>
+		<link rel="stylesheet" href="assets/js/vegas/vegas.min.css">
+		<script src="assets/js/vegas/vegas.min.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/jay_hat.png" alt="" /></span>
+							<h1>Jay Bieshaar</h1>
+							<p>DevOps Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://au.linkedin.com/in/jay-bieshaar-3183769b" class="icon brands fa-linkedin"  target="_blank">LinkedIn</a></li>
+								<li><a href="https://github.com/DasJayYa" class="icon brands fa-github"  target="_blank">LinkedIn</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jay Bieshaar</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}	
+				$("#example, body").vegas({
+					delay: 40000,
+					timer: false,				
+					shuffle: true,
+					transition: ['blur','blur2','swirlLeft','flash','flash2','burn','burn2','swirlLeft','swirlLeft2'],
+					transitionDuration: 2000,
+					slides: [
+						{ src: "assets/css/images/slideshow/howqua1.jpg", valign:"right"},
+						{ src: "assets/css/images/slideshow/IMG_20191011_165242.jpg" },
+						{ src: "assets/css/images/slideshow/IMG_20180630_142206.jpg" },
+						{ src: "assets/css/images/slideshow/NZ1.jpg", valign:"left"},
+						{ src: "assets/css/images/slideshow/NZ2.jpg", valign:"right" },
+						{ src: "assets/css/images/slideshow/NZ3.jpg" },
+						{ src: "assets/css/images/slideshow/dusk_bro.jpeg" },
+						{ src: "assets/css/images/slideshow/IMG_2534.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/IMG_20170827_135752.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/IMG_20180523_121216.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/IMG_20180524_115357.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/MVIMG_20190317_191410.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/IMG_20200202_210644.jpg", valign:"top" },
+						{ src: "assets/css/images/slideshow/MVIMG_20200304_145707.jpg", valign:"top" }
+					]
+				});
+			</script>
+
+	</body>
+</html>
