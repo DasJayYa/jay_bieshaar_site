@@ -1,0 +1,17 @@
+.aws*
+.DS_Store
+.env
+.env.assume
+.env.auth
+.kube
+.netrc
+.terraform-plan
+.terraform*
+.vscode
+*.tfstate
+**\.DS_Store
+kubeconfig_*
+plan.json
+result.xml
+terraform.tfstate.*
+src\.terraform

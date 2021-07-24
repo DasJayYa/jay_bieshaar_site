@@ -3,7 +3,7 @@ resource "aws_amplify_app" "jay-biesh-site" {
   repository = "https://github.com/DasJayYa/jay_bieshaar_site"
 
   # GitHub personal access token
-  access_token = data.aws_secretsmanager_secret.dasjay-token.id
+  access_token = lookup(jsondecode(data.aws_secretsmanager_secret_version.dasjay-token-current.secret_string),"dasjay_token")
 
   # The default build_spec added by the Amplify Console for React.
   build_spec = <<-EOT
